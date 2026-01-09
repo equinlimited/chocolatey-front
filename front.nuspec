@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>front</id>
+    <version>3.67.6</version>
+
+    <!-- Make it very clear this is not maintained by Front -->
+    <title>Front (Install) - Unofficial (Community)</title>
+
+    <authors>FrontApp, Inc.</authors>
+    <owners>Equin Limited</owners>
+
+    <!-- Required for community feed -->
+    <projectUrl>https://front.com/download</projectUrl>
+    <docsUrl>https://help.front.com/</docsUrl>
+
+    <!-- Front legal terms -->
+    <licenseUrl>https://front.com/legal/saas-services-agreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+    <packageSourceUrl>https://github.com/equinlimited/chocolatey-front</packageSourceUrl>
+
+    <tags>front unofficial community shared-inbox customer-communication customer-service inbox collaboration support helpdesk</tags>
+    <summary>Unofficial, community-maintained Chocolatey package for the Front desktop app (may lag official releases).</summary>
+    <description><![CDATA[
+## Unofficial / Community package (not maintained by Front)
+This Chocolatey package is **unofficial** and **community-provided**. It is **not** published or maintained by Front.
+It may **lag behind** Front's officially released desktop versions.
+
+## What this package does
+- Installs the Front desktop application for Windows.
+- Downloads the installer from Front's official download endpoint:
+  https://dl.frontapp.com/win32/FrontSetupMachine.msi
+
+## Support / expectations
+For Front product support and official release notes, please refer to Front's official channels.
+For issues with this Chocolatey package (install/uninstall scripts, packaging, version lag), please use the package issue tracker linked in this nuspec.
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
