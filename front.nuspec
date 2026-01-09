@@ -42,6 +42,7 @@ For issues with this Chocolatey package (install/uninstall scripts, packaging, v
 ]]></description>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="tools\chocolateyInstall.ps1" target="tools" />
+    <file src="tools\chocolateyUninstall.ps1" target="tools" />
   </files>
 </package>
