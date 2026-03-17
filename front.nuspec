@@ -6,7 +6,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>front</id>
-    <version>3.67.6</version>
+    <version>3.69.1</version>
 
     <!-- Make it very clear this is not maintained by Front -->
     <title>Front (Install) - Unofficial (Community)</title>

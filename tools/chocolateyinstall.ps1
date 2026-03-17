@@ -14,10 +14,10 @@ $packageArgs = @{
 
   softwareName  = 'Front'
 
-  checksum      = '5F7478EEBEC2F9553B2B14DC9C8166893A7E2A610CFA842E6FE7D0A42B5C1E0E'
+  checksum      = '059BCE9FA288078473DB710F1D32DB1AFB4E365613B92273728BDAF5D6C8DC37'
   checksumType  = 'sha256'
 
-  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0
+  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)
 }
 
