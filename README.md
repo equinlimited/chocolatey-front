@@ -7,7 +7,7 @@ It may lag behind official releases.
 ## Installer source
 
 The installer is downloaded directly from Front:
-https://dl.frontapp.com/win32/FrontSetupMachine.msi
+https://dl.frontapp.com/desktop/builds/{version}/Front-{version}-x64.msi
 
 ## Support
 
