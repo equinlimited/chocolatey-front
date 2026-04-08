@@ -34,7 +34,7 @@ It may **lag behind** Front's officially released desktop versions.
 ## What this package does
 - Installs the Front desktop application for Windows.
 - Downloads the installer from Front's download endpoint:
-  https://dl.frontapp.com/desktop/builds/{version}/Front-{version}-x64.msi
+  https://dl.frontapp.com/desktop/builds/{version}/Front-machine-{version}-x64.msi
 
 ## Support / expectations
 For Front product support and official release notes, please refer to Front's official channels.
