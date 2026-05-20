@@ -6,7 +6,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>front</id>
-    <version>3.71.1</version>
+    <version>3.73.0</version>
 
     <!-- Make it very clear this is not maintained by Front -->
     <title>Front (Install) - Unofficial (Community)</title>
@@ -23,6 +23,13 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
 
     <packageSourceUrl>https://github.com/equinlimited/chocolatey-front</packageSourceUrl>
+    <iconUrl>https://front.com/apple-icon.png</iconUrl>
+    <releaseNotes><![CDATA[
+      ### Front 3.73.0
+
+      - Updated package to Front version 3.73.0.
+      - Official Front release notes: https://community.front.com/desktop-release-notes-50
+      ]]></releaseNotes>
 
     <tags>front unofficial community shared-inbox customer-communication customer-service inbox collaboration support helpdesk</tags>
     <summary>Unofficial, community-maintained Chocolatey package for the Front desktop app (may lag official releases).</summary>
